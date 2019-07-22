@@ -1,0 +1,29 @@
+.footer {
+  width: 30%;
+  padding: 10px;
+  height: auto;
+  background: rgba(60, 60, 60, 1);
+  padding: 10;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-between;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .box {
+      min-width: 5px;
+      min-height: 5px;
+      padding: 3px;
+      margin-left: 10px;
+    }
+    span {
+      font-size: 10px;
+      color: #fff;
+      margin-left: 3px;
+    }
+  }
+}

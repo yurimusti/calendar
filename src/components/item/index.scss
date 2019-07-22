@@ -1,0 +1,33 @@
+.item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &-dayName {
+    font-size: 10px;
+    color: #aaa;
+  }
+
+  &-date {
+    font-size: 24px;
+  }
+
+  &-box {
+    width: 5px;
+    height: 5px;
+  }
+
+  .disableDate {
+    color: #999;
+  }
+
+  .sameDate {
+    color: #9ccaeb;
+  }
+
+  .normalDate {
+    color: #fff;
+  }
+}
